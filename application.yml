@@ -12,7 +12,7 @@ eureka:
 #      defaultZone: http://${eureka.instance.ip-address}:${server.port}/eureka/
       defaultZone: http://49.233.170.4:8761/eureka/
   instance:
-    prefer-ip-address: true #将自己的ip地址注册到eurka服务中啦啦啦啦啦啦
+    prefer-ip-address: true #将自己的ip地址注册到eurka服务中啦啦啦啦啦啦 test 1
     ip-address: localhost
     instance-id: ${eureka.instance.ip-address}:8762
   server:
